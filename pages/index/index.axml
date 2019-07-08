@@ -1,0 +1,10 @@
+<view class="flex">
+  <view class="red">
+    <view a:for="{{100}}">{{index}}</view>
+    <view>
+        <map longitude="120.131441" latitude="30.279383" show-location="{{true}}" class="map"></map>
+    </view>
+  </view>
+  <cover-view class="green">我是按钮，别挡我</cover-view> 
+  <view class="yellow"></view>
+</view>
